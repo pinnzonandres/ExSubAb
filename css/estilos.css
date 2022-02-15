@@ -1,0 +1,69 @@
+body{
+    font-family: "Arial";
+}
+
+#Cabecera{
+    background-color: #ed1c24;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+#logo{
+    width: 150px;
+    padding-left: 2em;
+    padding-top: 1em;
+    float: left;
+    position: relative;
+}
+
+#Título{
+    color:white;
+    font: bold 40px/1em "Arial";
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffd400;
+    margin: 1em auto;
+    display: inline-block;
+    text-align: center;
+}
+
+#Container_Ejecución{
+    background-color: #820263 ;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
+#Reporte_Ejecución_Presupuestal{
+    width: 90%;
+    height: 550px;
+}
+
+#Parrafo_Gráficas{
+    padding-top: 2em;
+    text-align: justify;
+    margin: auto;
+    width: 90%;
+}
+
+#Titulo_Grafico{
+    padding: 2%;
+}
+#Boton_ver_mas{
+    color: #ffd400;
+    font-style: italic;
+    margin: 2em 2em;
+    text-align: left;
+    position: relative;
+    left: 85%;
+    padding: 2em;
+}
+
+#PAA{
+    background-color: #329257;
+    color: white;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+
