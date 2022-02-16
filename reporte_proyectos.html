@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reporte Presupuesto por Proyectos</title>
+    <meta name="description" content="Datos Económicos Suba Abierta.">
+    <link rel="stylesheet" href="css/reporte_proyectos.css">
+  </head>
+
+  <body>
+    <div id="Cabecera">
+        <h1 id="Título">Tu Plata Cuenta</h1>
+        <img id="logo" src="images/logo_secretaria.png">
+    </div>
+    <div id="Reporte">
+        <h2 id="titulo_reporte">REPORTE DE LA GESTIÓN DEL PRESUPUESTO DE INVERSIÓN POR CADA PROYECTO</h2>
+        <p id="parrafo_reporte">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quos, nisi tempore. Iste repudiandae nostrum accusantium? 
+            Numquam similique voluptas itaque molestias, voluptatem fuga 
+            quo dolores, a non dolorum cupiditate neque nesciunt? Lorem ipsum
+            dolor sit amet consectetur, adipisicing elit. Dignissimos a aliquid
+            pariatur ratione modi. Numquam, alias nemo quod repudiandae optio 
+            atque minus excepturi distinctio? Inventore incidunt facilis assumenda 
+            non nam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Architecto nostrum ad, nisi sapiente neque eius culpa reiciendis aliquam
+            modi dolorem quos iure deleniti fugit quis libero, necessitatibus, 
+            ipsam eaque aliquid.
+        </p>
+
+        <h3 id="subtitulo_reporte">DINERO COMPROMETIDO POR CADA PROYECTO</h3>
+        <iframe id="Reporte_Anual_Proyectos" title="Reporte_Anual_Proyectos"  src="https://app.powerbi.com/view?r=eyJrIjoiYTM2M2JhMGEtMzYyNi00OGQzLTlkOGYtN2EyZDUyMTMzYjI5IiwidCI6IjE0ZGUxNTVmLWUxOTItNDRkYS05OTRkLTE5MTNkODY1ODM3MiIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+        <p id="parrafo_reporte">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nesciunt 
+            assumenda! Tempore, laboriosam culpa omnis amet esse asperiores quidem
+            facilis reprehenderit dicta quae molestiae adipisci, recusandae placeat 
+            quisquam doloribus ducimus. Lorem, ipsum dolor sit amet consectetur 
+            adipisicing elit. Odit dignissimos quaerat, eos harum architecto 
+            consectetur saepe, possimus minima fugit earum similique qui labore 
+            accusantium! Sunt vero possimus ea excepturi sit?
+        </p>
+        <hr id="corte_reporte">
+        <h3 id="subtitulo_reporte">REPORTE AÑO 2021 DE PRESUPUESTO POR PROYECTO Y AREA</h3>
+            <iframe id="Reporte_Anual_Proyectos" title="Reporte_Anual_Proyectos"  src="https://app.powerbi.com/view?r=eyJrIjoiM2Q0YjJhNDctNWE5ZC00YWY5LWE2NmEtZGY4YjcyM2ZlNDY3IiwidCI6IjE0ZGUxNTVmLWUxOTItNDRkYS05OTRkLTE5MTNkODY1ODM3MiIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+        <p id="parrafo_reporte">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Atque voluptatum quis optio id itaque dolor maxime beatae laborum ipsum 
+            fugiat? Eligendi fuga dolorem possimus culpa? Corrupti et quaerat vel minus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, molestiae 
+            facilis tenetur voluptatem adipisci ipsam dignissimos deserunt distinctio. 
+            Quasi, tempora repudiandae consequuntur labore magnam itaque aliquam veniam 
+            quas fugit quaerat?
+        </p>
+    </div>
+
+    <div id="Zona_Descarga">
+        <div class="row_descarga">
+            <div class="column left">
+                <h3 id="Text_Descarga">Descarga Nuestra Información</h3>
+            </div>
+            <div class="column rigth" style="display: table; height: 50px; overflow: hidden;">
+                <div style="display: table-cell; vertical-align: middle;">
+                    <form onsubmit="this.action = document.getElementById('filename').value">
+                        <select id="filename">
+                            <option value="Datos/PAA_2022_v7.xlsx">Plan Anual de Adquisiciones 2022</option>
+                            <option value="Datos/downloads/file2.pdf">Plan Anual de Adquisiciones 2021</option>
+                        </select>
+                        <input type="submit" value="Descargar" class="grey-btn" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

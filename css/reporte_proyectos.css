@@ -1,0 +1,93 @@
+body{
+    font-family: "Arial";
+    background-color: #ebecf0;
+}
+
+#Cabecera{
+    background-color: #ed1c24;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+#logo{
+    width: 150px;
+    padding-left: 2em;
+    padding-top: 1em;
+    float: left;
+    position: relative;
+}
+
+#Título{
+    color:white;
+    font: bold 40px/1em "Arial";
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffd400;
+    margin: 1em auto;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#Reporte{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+#titulo_reporte{
+    padding-top: 1em;
+    border-bottom: 1px solid #ed1c24;
+    width: 80%;
+    margin: auto;
+}
+
+#parrafo_reporte{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    line-height: 1.6;
+}
+
+.row_descarga{
+    margin: 2em auto;
+    width: 80%;
+    background-color: #235789;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+    }
+
+.row_descarga:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#Text_Descarga{
+    color: white;
+}
+
+#download_form{
+    position: relative;
+    
+}
+#Descarga{
+    margin: auto;
+    padding: 2em 2em;
+}
+#Reporte_Anual_Proyectos{
+    width: 90%;
+    height: 550px;
+}
+
+#subtitulo_reporte{
+    padding: 1em;
+}
+
+#corte_reporte{
+    width: 80%;
+}

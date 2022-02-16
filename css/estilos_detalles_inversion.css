@@ -1,5 +1,6 @@
 body{
     font-family: "Arial";
+    background-color: #ebecf0;
 }
 
 #Cabecera{
@@ -26,44 +27,54 @@ body{
     text-align: center;
 }
 
-#Container_Ejecución{
-    background-color: #820263 ;
-    color: white;
-    text-align: center;
+
+#Reporte{
+    width: 70%;
     margin: auto;
-    width: 60%;
+    text-align: center;
+    background-color: white;
 }
 
-#Reporte_Ejecución_Presupuestal{
-    width: 90%;
-    height: 550px;
+#titulo_reporte{
+    padding-top: 1em;
 }
 
-#Parrafo_Gráficas{
-    padding-top: 2em;
+#parrafo_reporte{
     text-align: justify;
+    width: 80%;
     margin: auto;
-    width: 90%;
+    padding: 1em;
 }
 
-#Titulo_Grafico{
-    padding: 2%;
-}
-#Boton_ver_mas{
-    color: #ffd400;
-    font-style: italic;
-    margin: 2em 2em;
-    text-align: left;
-    position: relative;
-    left: 85%;
-    padding: 2em;
+
+
+
+.row_descarga{
+    margin: 2em auto;
+    width: 80%;
+    background-color: #235789;
 }
 
-#PAA{
-    background-color: #329257;
-    color: white;
+.column {
+    float: left;
+    width: 50%;
     text-align: center;
-    margin: auto;
-    width: 60%;
+    }
+
+.row_descarga:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#Text_Descarga{
+    color: white;
 }
 
+#download_form{
+    position: relative;
+    
+}
+#Descarga{
+    margin: auto;
+    padding: 2em 2em;
+}
