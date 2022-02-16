@@ -38,6 +38,7 @@ body{
 #titulo_reporte{
     padding-top: 1em;
     border-bottom: 1px solid #ed1c24;
+    display: inline-block;
     width: 80%;
     margin: auto;
 }
@@ -47,7 +48,7 @@ body{
     width: 80%;
     margin: auto;
     padding: 1em;
-    line-height: 1.6;
+    line-height: 2;
 }
 
 .row_descarga{
@@ -89,5 +90,5 @@ body{
 }
 
 #corte_reporte{
-    width: 80%;
+    width: 90%;
 }
